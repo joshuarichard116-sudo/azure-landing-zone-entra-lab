@@ -1,4 +1,4 @@
-# Talvex Azure Landing Zone — Lab Guide (Your First Landing Zone, $0 Edition)
+# ![Talvex Azure Landing Zone — Lab Guide (Your First Landing Zone, $0 Edition)](../assets/banner-lab-guide.svg)
 
 **Lab tenant:** Talvex (a fictional manufacturer)
 **Cloud:** Commercial Azure (the regular cloud, *not* Azure Government)
@@ -73,6 +73,7 @@ In production, each of these is usually its **own subscription**. You have **one
 ### 0.2 Architecture diagram (simplified for one subscription)
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FAF5EE','primaryTextColor':'#27241D','primaryBorderColor':'#423D33','lineColor':'#B8860B','secondaryColor':'#F7F3EC','tertiaryColor':'#F7F3EC','clusterBkg':'#F7F3EC','clusterBorder':'#D9D1C4','titleColor':'#27241D','edgeLabelBackground':'#FAF5EE','textColor':'#27241D'}}}%%
 flowchart TD
     Root["Tenant Root Group<br/>(ID = Talvex tenant ID)"] --> Talvex["mg-talvex<br/>Talvex<br/>(NIST SP 800-171 Rev. 2 audit, allowed locations, secure transfer)"]
     Talvex --> Platform["mg-talvex-platform<br/>Platform"]
@@ -997,3 +998,5 @@ Treat these as "probably right, check on screen":
 11. Azure Policy being free for Azure resources is stated as general knowledge.
 
 **Deviation from the original brief:** "Add the NIST 800-171 standard" in Defender for Cloud (Section 5) **can't be done at $0**. Learn requires a paid Defender plan to add any standard beyond MCSB. The guide substitutes the free Azure Policy compliance view of the same NIST SP 800-171 Rev. 2 initiative, and documents the paid path with a cost flag.
+
+<!-- pizzazz-recipe: {"pz":1,"kit":"my-color-profile","concept":"Spec Sheet","family":"refined","dev":{"intensity":"standard","flourish":"amber dividers","structure":"slim header"},"sig":"amber rule dividers","pal":{"pri":"#27241D","sec":"#423D33","tint":"#FAF5EE","zeb":"#F7F3EC","mut":"#625B50","ftr":"#6B6358","hair":"#D9D1C4","acc":"#D9A21B","watch":"#B44D12"},"font":{"h":"system-ui","b":"system-ui"},"date":"2026-11-19"} -->
