@@ -1,0 +1,12 @@
+.DS_Store
+*.log
+.vscode/
+.idea/
+.azure/
+*.env
+.env*
+*.pem
+*.pfx
+*.key
+# local compiled output
+infra/main.compiled.json
