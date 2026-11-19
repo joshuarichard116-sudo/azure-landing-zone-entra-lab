@@ -10,6 +10,9 @@
 
 A minimal Azure landing zone written in Bicep, plus a step-by-step Microsoft Entra lab guide, with CMMC practice mappings. Built as a **lab for learning**, using a fictional tenant ("Talvex").
 
+> [!NOTE]
+> **Background:** I built this to work through a problem from my day-to-day MSP work. It runs on a separate tenant with a fictional company name, so the full design can be public without exposing any client data.
+
 > [!WARNING]
 > **Lab, not production.** This is learning material. Do not deploy it to a production subscription or use it as-is for a real environment.
 
