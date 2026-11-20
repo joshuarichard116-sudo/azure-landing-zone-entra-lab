@@ -8,6 +8,8 @@
   <img alt="Lab, not production" src="https://img.shields.io/badge/Status-lab%2C%20not%20production-B44D12?labelColor=27241D">
 </p>
 
+> 🌐 Part of [Joshua Richard's portfolio](https://joshuarichard116-sudo.github.io/jrichard-web/) · Lead Engineer, CMMC & GCC High · also see the [playable firewall lab](https://joshuarichard116-sudo.github.io/jrichard-web/labs/talvex-firewall/)
+
 A minimal Azure landing zone written in Bicep, plus a step-by-step Microsoft Entra lab guide, with CMMC practice mappings. Built as a **lab for learning**, using a fictional tenant ("Talvex").
 
 > [!NOTE]
